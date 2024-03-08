@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Shared", "Orders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Test", "Orders2024.Test\Orders2024.Test.csproj", "{9F885183-3220-442F-A898-5E27F8141767}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Frontend", "Orders2024.Frontend\Orders2024.Frontend.csproj", "{3370B1D9-9CC8-4D0C-973F-989030F618CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9F885183-3220-442F-A898-5E27F8141767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F885183-3220-442F-A898-5E27F8141767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F885183-3220-442F-A898-5E27F8141767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3370B1D9-9CC8-4D0C-973F-989030F618CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3370B1D9-9CC8-4D0C-973F-989030F618CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3370B1D9-9CC8-4D0C-973F-989030F618CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3370B1D9-9CC8-4D0C-973F-989030F618CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
