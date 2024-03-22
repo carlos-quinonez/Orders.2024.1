@@ -13,7 +13,11 @@ builder.Services.AddSwaggerGen();
 // Inject DataBase Connection
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer("name=DB.Orders2024.Local"));
 
+// Inject Dependecies
+
 var app = builder.Build();
+
+app.UseCors(x => x.AllowAnyMethod().AllowAnyHeader().SetIsOriginAllowed(origen => true).AllowCredentials());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
