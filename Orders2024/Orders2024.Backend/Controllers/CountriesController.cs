@@ -17,6 +17,19 @@ public class CountriesController : ControllerBase
         _context = context;
     }
 
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteAsync(Guid id)
+    {
+        var country = await _context.Countries.FindAsync(id);
+        if (country == null)
+        {
+            return NotFound();
+        }
+        _context.Remove(country);
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
+
     [HttpGet]
     public async Task<IActionResult> GetAsync()
     {
@@ -47,19 +60,6 @@ public class CountriesController : ControllerBase
     public async Task<IActionResult> PutAsync(Country country)
     {
         _context.Update(country);
-        await _context.SaveChangesAsync();
-        return NoContent();
-    }
-
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteAsync(Guid id)
-    {
-        var country = await _context.Countries.FindAsync(id);
-        if (country == null)
-        {
-            return NotFound();
-        }
-        _context.Remove(country);
         await _context.SaveChangesAsync();
         return NoContent();
     }
