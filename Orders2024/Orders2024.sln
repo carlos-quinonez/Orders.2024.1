@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders2024.Backend", "Orders2024.Backend\Orders2024.Backend.csproj", "{0CD41B49-852F-4745-B985-898F6EF1B43E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Shared", "Orders2024.Shared\Orders2024.Shared.csproj", "{AB84857E-891C-4287-830D-8247E842404D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders2024.Shared", "Orders2024.Shared\Orders2024.Shared.csproj", "{AB84857E-891C-4287-830D-8247E842404D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Test", "Orders2024.Test\Orders2024.Test.csproj", "{9F885183-3220-442F-A898-5E27F8141767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders2024.Test", "Orders2024.Test\Orders2024.Test.csproj", "{9F885183-3220-442F-A898-5E27F8141767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders2024.Frontend", "Orders2024.Frontend\Orders2024.Frontend.csproj", "{3370B1D9-9CC8-4D0C-973F-989030F618CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders2024.Frontend", "Orders2024.Frontend\Orders2024.Frontend.csproj", "{3370B1D9-9CC8-4D0C-973F-989030F618CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
