@@ -1,0 +1,32 @@
+﻿@typeparam Titem;
+
+@if (DataSource is null)
+{
+    @if(Loading is null)
+    {
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="loading_default.gif" width="30px" height="30px" />
+        </div>
+    }
+    else
+    {
+        @Loading
+    }
+}
+else if (DataSource.Count == 0)
+{
+    @if(NoRecords is null)
+    {
+        <div class="alert alert-info" role="alert">
+            No se encontraron registros!
+        </div>
+    }
+    else
+    {
+        @NoRecords
+    }
+}
+else
+{
+    @Body
+}
